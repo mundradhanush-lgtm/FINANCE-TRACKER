@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/static/signup.css">
+        <title>SIGN UP</title>
+    </head>
+    <body>
+        <h1>
+            <img src="/static/Finance_tracker_logo.jpg" alt="Finance Tracker Logo"><br>
+            Create your Account
+        </h1>
+        <p>A clearer picture of your money starts here</p>
+        <div class="signup_text">
+            <div class="inputs">
+                <label for="email">Email address</label><br>
+                <input 
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                ><br>
+                <label for="mobile">Mobile Number <span class="optional">(optional)</span></label><br>
+                <input
+                    id="mobile"
+                    name="mobile"
+                    type="tel"
+                    placeholder="+91 Phone Number"
+                ><br>
+                <label for="password">Create a Password</label><br>
+                <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    placeholder="At least 8 characters"
+                    required
+                >
+                <p>Use a password for this website, not your email password</p><br>
+            </div>
+        </div>
+            <button><div class="create">Continue</div></button><br>
+            <p>Already have an account? <a href="login.html"><b>Log in</b></a></p>
+            <span class="verification_alert">We'll send a verification code to your email next.</span>
+    </body>
+</html>

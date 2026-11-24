@@ -25,12 +25,13 @@ p{
     margin-bottom:50px;
 }
 
-.create button{
-   padding:15px 80px;
+.create{
+   padding:15px 70px;
    background-color:#20583F;
    color:#ffffff;
    border-color:#000000;
    border-radius:15px;
+   text-decoration:none;
 }
 
 .log button{
@@ -39,4 +40,9 @@ p{
     color:#000000;
     border-color:#2F7655;
     border-radius:15px;
+}
+
+h1 img{
+    width:100px;
+    height:auto;
 }
