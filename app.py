@@ -7,6 +7,9 @@ def index():
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
+@app.route("/email_verification")
+def email_verification():
+    return render_template("email_verification.html")
 
 if(__name__=="__main__"):
     app.run()

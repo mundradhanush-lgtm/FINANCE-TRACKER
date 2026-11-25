@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/static/email_verification.css">
+        <title>EMAIL VERIFICATION</title>
+    </head>
+    <body>
+        <h1>
+            <img src="/static/Finance_tracker_logo.jpg" alt="Finance Tracker Logo"><br>
+            Verify your Email
+        </h1>
+        <span class="alert">We sent a verification code to</span><br>
+        <span class="email_address"><b>you@example.com</b></span>
+        <div class="verificaion_code">
+            <label for="verification">Verification Code</label><br>
+            <input
+                id="verification"
+                name="verification"
+                type="text"
+                inputmode="numeric"
+                placeholder="Enter the code"
+                required
+            ><br>
+            <p>check your inbox and spam folder</p><br>
+        </div>
+        <button><div class="verify">Verify email</div></button>
+        <span class="code_error">Didn't recieve the code? <span class="resend"><button type="button"><b>Resend code</b></button></span></span><br>
+        <a class="different_email" href="/signup"><b>Use a different email address</b></a><br>
+        <hr>
+        <p>The verification code is private. Never share it wth anyone.</p>
+    </body>
+</html>

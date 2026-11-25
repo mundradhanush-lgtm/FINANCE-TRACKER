@@ -50,12 +50,24 @@ a:active{
 }
 
 .create{
-   padding:20px 300px;
+   padding:15px 200px;
    background-color:#20583F;
    color:#ffffff;
    border-color:#000000;
    border-radius:15px;
-   font-size: 15px;
+   text-decoration:none;
+}
+
+.create:hover{
+    color:#ffffff;
+}
+
+.create:visited{
+    color:#ffffff
+}
+
+.create:active{
+    color:#ffffff
 }
 
 p{

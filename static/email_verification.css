@@ -1,0 +1,113 @@
+body{
+    padding-bottom:25px;
+    padding-top:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:100vh;
+    border-color:#000000;
+    box-shadow:0px 0px 100px rgba(184, 178, 178, 0.4);
+    border-radius:15px;
+    margin:200px;
+}
+
+p{
+    color:grey;
+}
+
+.verificaton_code{
+    text-align:left;
+    width:100%;
+    max-width:700px;
+    box-sizing:border-box;
+}
+
+.verify{
+    padding:20px 300px;
+    background-color:#20583F;
+    color:#ffffff;
+    border-color:#000000;
+    border-radius:15px;
+    font-size: 15px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 700px;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.email_address{
+    color:#2F7655;
+    line-height:0px;
+    margin-bottom:50px;
+}
+
+.alert{
+    margin-bottom:0px;
+    color:grey;
+    line-height:3.5px;
+    margin-top:20px;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.verificaion_code{
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+.different_email{
+    color:#2F7655;
+    text-decoration:none;
+    line-height:0px;
+    margin-top:10px;
+}
+
+.different_email:hover{
+    color:#20583F;
+}
+
+.different_email:visited{
+    color:#2F7655
+}
+
+.different_email:active{
+    color:blue;
+}
+
+hr{
+    background-color:#303234;
+    height:5px;
+    width:100%;
+    max-width:700px;
+}
+
+.code_error{
+    color:grey;
+    line-height:0px;
+    margin-top:30px;
+}
+
+.resend button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #2F7655;
+    font: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.resend button:hover {
+    color: #20583F;
+}
