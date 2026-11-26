@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/static/login.css">
+        <title>LOG IN</title>
+    </head>
+    <body>
+        <h1>
+            <img src="/static/Finance_tracker_logo.jpg" alt="Finance Tracker Logo"><br>
+            Welcome back
+        </h1>
+        <p>Login to your Finance Tracker account</p>
+        <div class="login">
+            <label for="address">Email address</label><br>
+            <input
+                id="address"
+                name="address"
+                type="email"
+                placeholder="you@example.com"
+                required
+            ><br>
+            <label for="pass">Password</label><br>
+            <input
+                id="pass"
+                name="pass"
+                type="password"
+                placeholder="Your Finance Tracker password"
+                required
+            ><br>
+        </div>
+        <a class="forgot" href="/forgot_password"><b>Forgot password?</b></a>
+        <a class="create" href="/dashboard">Log in</a><br>
+        <span class="no_account">Don't have an account?<a class="create_account" href="/signup"><b> Create an account</b></a></span>
+        <hr>
+        <p>Your personal finances, organized in one place</p>
+    </body>
+</html>

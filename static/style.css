@@ -34,12 +34,16 @@ p{
    text-decoration:none;
 }
 
-.log button{
-    padding:15px 112px;
+.log{
+    padding:15px 107px;
     background-color:#ffffff;
     color:#000000;
-    border-color:#2F7655;
+    border:2px solid #2F7655;
     border-radius:15px;
+}
+
+.log{
+    text-decoration:none;
 }
 
 h1 img{

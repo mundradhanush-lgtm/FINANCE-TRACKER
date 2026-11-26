@@ -10,6 +10,9 @@ def signup():
 @app.route("/email_verification")
 def email_verification():
     return render_template("email_verification.html")
+@app.route("/login")
+def login():
+    return render_template("login.html")
 
 if(__name__=="__main__"):
     app.run()
